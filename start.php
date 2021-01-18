@@ -5,6 +5,7 @@
  */
 
 ini_set('display_errors', 'on');
+date_default_timezone_set("Asia/Shanghai");
 use Workerman\Worker;
 
 if(strpos(strtolower(PHP_OS), 'win') === 0)
